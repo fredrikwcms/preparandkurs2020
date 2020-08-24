@@ -1,0 +1,63 @@
+html {
+    font-size: 18px;
+}
+
+html body {
+    margin: 0;
+    padding: 0;
+    background-color: lightgrey;
+}
+
+.site-header {
+    display: flex;
+    align-items: center;
+    background-color: lightpink;
+}
+
+.logo {
+    padding: 10px;
+    width: 20%;
+}
+
+.logo img {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+nav a {
+    font-family: monospace;
+    font-size: 2rem;
+    text-decoration: none;
+    color: red;
+    padding: 6px;
+}
+
+nav a:hover {
+    background-color: skyblue;
+}
+
+section {
+    padding: 10px;
+    width: 250px;
+}
+
+.flex-container {
+    display: flex;
+    width: 900px;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+    margin: auto;
+}
+
+footer {
+    background-color: lightpink;
+}
